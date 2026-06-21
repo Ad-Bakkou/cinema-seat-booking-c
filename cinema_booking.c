@@ -134,5 +134,6 @@ void DisplaySeats(const Cinema* cinema) {
         printf("Seat %d: %s (%s)\n", current->seatNumber, current->customerName, status);
         current = current->next;
     }
+    printf("Currently there is no seat reservation\n");
 }
 
